@@ -1,57 +1,67 @@
-# OBJECTIVE
+# ☕ Coffee Sales Analysis (PostgreSQL Project)
 
-The goal of this project is to analyze the sales data of Monday Coffee, a company that has been selling its products online since January 2023, and to recommend the top three major cities in India for opening new coffee shop locations based on consumer demand and sales performance.
+## 📌 Objective
 
-## Questions 
-1. ##### Coffee Consumers Count
-         How many people in each city are estimated to consume coffee, given that 25% of the population does?
+The goal of this project is to analyze the sales data of **Monday Coffee**, a company that has been selling its products online since **January 2023**, and to recommend the top three major cities in India for opening new coffee shop locations based on consumer demand and sales performance.
 
-2. ##### Total Revenue from Coffee Sales
-         What is the total revenue generated from coffee sales across all cities in the last quarter of 2023?
+---
 
-3. ##### Sales Count for Each Product
-         How many units of each coffee product have been sold?
+## ❓ Key Business Questions
 
-4. ##### Average Sales Amount per City
-         What is the average sales amount per customer in each city?
+1. **Coffee Consumers Count**  
+   How many people in each city are estimated to consume coffee, given that 25% of the population does?
 
-5. ##### City Population and Coffee Consumers
-         Provide a list of cities along with their populations and estimated coffee consumers.
+2. **Total Revenue from Coffee Sales**  
+   What is the total revenue generated from coffee sales across all cities in the last quarter of 2023?
 
-6. ##### Top Selling Products by City
-         What are the top 3 selling products in each city based on sales volume?
+3. **Sales Count for Each Product**  
+   How many units of each coffee product have been sold?
 
-7. ##### Customer Segmentation by City
-         How many unique customers are there in each city who have purchased coffee products?
+4. **Average Sales Amount per City**  
+   What is the average sales amount per customer in each city?
 
-8. ##### Average Sale vs Rent
-         Find each city and their average sale per customer and avg rent per customer
+5. **City Population and Coffee Consumers**  
+   Provide a list of cities along with their populations and estimated coffee consumers.
 
-9. ##### Monthly Sales Growth
-         Sales growth rate: Calculate the percentage growth (or decline) in sales over different time periods (monthly).
+6. **Top Selling Products by City**  
+   What are the top 3 selling products in each city based on sales volume?
 
-10. ##### Market Potential Analysis
-          Identify top 3 city based on highest sales, return city name, total sale, total rent, total customers, estimated coffee consumer
+7. **Customer Segmentation by City**  
+   How many unique customers are there in each city who have purchased coffee products?
 
+8. **Average Sale vs Rent**  
+   Find each city and their average sale per customer and average rent per customer.
 
-## Recommendations
+9. **Monthly Sales Growth**  
+   Calculate the percentage growth (or decline) in sales over different time periods (monthly).
 
-After analyzing the data, the recommended top three cities for new store openings are:
+10. **Market Potential Analysis**  
+    Identify top 3 cities based on highest sales; return city name, total sale, total rent, total customers, and estimated coffee consumers.
 
-City 1: Pune
+---
 
--> Average rent per customer is very low
--> Highest total revenue
--> Average sales per customer is also high
+## 💡 Tools Used
 
-City 2: Delhi
+- **PostgreSQL** for querying and data manipulation
+- **SQL Joins, CTEs, Window Functions, Aggregations** for deep analysis
 
--> Highest estimated coffee consumers at 7.7 million
--> Highest total number of customers, which is 68
--> Average rent per customer is 330 (still under 500)
+---
 
-City 3: Jaipur
+## ✅ Recommendations
 
--> Highest number of customers, which is 69
--> Average rent per customer is very low at 156
--> Average sales per customer is better at 11.6k
+Based on the data-driven analysis, the top 3 cities recommended for new store openings are:
+
+### 🏆 1. Pune
+- ✅ **Highest total revenue**
+- ✅ **High average sales per customer**
+- ✅ **Lowest average rent per customer**
+
+### 🏙️ 2. Delhi
+- ✅ **Largest coffee-consuming population: 7.7 million**
+- ✅ **Highest number of customers: 68**
+- ✅ **Average rent per customer: ₹330**
+
+### 🌸 3. Jaipur
+- ✅ **Highest customer count: 69**
+- ✅ **Very low average rent per customer: ₹156**
+- ✅ **Strong average sales per customer: ₹11.6K**
